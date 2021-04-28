@@ -1,12 +1,12 @@
 print("Wprowadź pierwsze słowo.")
-pierwsze = input()
+pierwsze_slowo = input()
 print("Wprowadź to słowo jeszcze raz (może mieć zamienioną kolejność liter, pamiętaj, żeby zgadzała się ich cyfra.")
-drugie = input()
+drugie_slowo = input()
 łańcuch1 = ""
 łańcuch2 = ""
 
-łańcuch1 = "".join(pierwsze)
-łańcuch2 = "".join(drugie)
+łańcuch1 = "".join(pierwsze_slowo)
+łańcuch2 = "".join(drugie_slowo)
 
 print(łańcuch1 + " " + łańcuch2)
 
