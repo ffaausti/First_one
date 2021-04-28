@@ -148,26 +148,4 @@ for i in range(len(łańcuch_lista)):
 # elif suma_znaków3 > suma_znaków2 and suma_znaków3> suma_znaków1:
 #     print("Najwięcej znaków ma łańcuch 3.")
 
-# Poproś użytkownika o podanie imienia i nazwiska.
-# Sprawdź, czy podany ciąg znaków składa się tylko z liter.
-# Użytkownicy bywają leniwi.
-# Nie zawsze zapisują imię czy nazwisko z dużej litery – popraw ich, usuń zbędne znaki.
-# Sprawdź działanie programu na kilku stringach: np jan kowalski, jan.kowalski, JaN KOWALskI, Jan1Kowalski1
 
-# print("Podaj imię.")
-# imię = input()
-# print("Podaj nazwisko.")
-# nazwisko = input()
-# imię_łańcuch= ""
-# imię_łańcuch= "".join(imię)
-# nazwisko_łańcuch = ""
-# nazwisko_łańcuch = "".join(nazwisko)
-#
-#
-# imię_łańcuch = imię_łańcuch.capitalize()
-# nazwisko_łańcuch = nazwisko_łańcuch.capitalize()
-# łańcuch_główny = imię_łańcuch + " " + nazwisko_łańcuch
-# print(łańcuch_główny)
-#
-# same_litery = łańcuch_główny.isalpha()
-# print(same_litery)
